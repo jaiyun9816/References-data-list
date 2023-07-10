@@ -1,1 +1,1 @@
-# References-list
+# journal-list
