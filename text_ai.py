@@ -14,7 +14,6 @@ class text_ai():
         pass
 
     
-    
     def main(r_text):
   
         text = ""

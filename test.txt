@@ -1,0 +1,16 @@
+제21권 제2호 2012년 6월
+19
+Structured DEVS Formalism: A Structural Modelling Method of 
+Discrete Event Systems
+Hae Sang Song1†
+Structured DEVS Formalism: 이산사건 시스템의 구조적 모델링 기법
+송해상
+
+Acknowledgments
+I would like to express special thanks to Prof. Tag Gon 
+Kim who advised me on this work with a lot of 
+discussions and comments.
+References
+1. Lee, S.Y, Jang, S.H., Lee,
+
+해당 내용에서 제목, 저자, 사사문구를 출력해줘

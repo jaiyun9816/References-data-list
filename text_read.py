@@ -8,10 +8,7 @@ class text_read():
     def __init__(self) -> None:
         pass
 
-    
-                    
     def main():
-        
         
         def read_pdf(folder_path):
             t_list = []
