@@ -22,7 +22,7 @@ def extract_text_from_pdf(pdf_path):
     return extracted_text
 
 # 이미지로 구성된 PDF 경로
-pdf_path = '경로/이미지로_구성된_파일.pdf'
+pdf_path = './PDF/img_sample1.pdf'
 
 # 텍스트 추출 실행
 extracted_text = extract_text_from_pdf(pdf_path)
