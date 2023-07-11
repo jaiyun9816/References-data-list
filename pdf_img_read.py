@@ -9,16 +9,17 @@ def pdf_to_images(pdf_path):
 
 # 이미지에서 텍스트 추출
 def extract_text_from_image(image):
-    text = pytesseract.image_to_string(image)
+    text = pytesseract.image_to_string(image, lang='kor+eng')
     return text
 
 # 이미지로 구성된 PDF에서 텍스트 추출
 def extract_text_from_pdf(pdf_path):
     images = pdf_to_images(pdf_path)
     extracted_text = ''
-    for image in images:
-        text = extract_text_from_image(image)
-        extracted_text += text
+    for image in range(len(images)):
+        text = extract_text_from_image(images[image])
+        if image == 0 or image == len(images)-1:
+            extracted_text += text
     return extracted_text
 
 # 이미지로 구성된 PDF 경로
